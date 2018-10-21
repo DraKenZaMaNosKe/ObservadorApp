@@ -28,55 +28,57 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
+            this.tBContrsenia = new System.Windows.Forms.TextBox();
+            this.tBUsuario = new System.Windows.Forms.TextBox();
+            this.lblContrasenia = new System.Windows.Forms.Label();
+            this.lnlUsuario = new System.Windows.Forms.Label();
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // textBox2
+            // tBContrsenia
             // 
-            this.textBox2.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(344, 157);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 26);
-            this.textBox2.TabIndex = 13;
+            this.tBContrsenia.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.tBContrsenia.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tBContrsenia.Location = new System.Drawing.Point(219, 142);
+            this.tBContrsenia.Name = "tBContrsenia";
+            this.tBContrsenia.PasswordChar = '°';
+            this.tBContrsenia.Size = new System.Drawing.Size(153, 26);
+            this.tBContrsenia.TabIndex = 13;
             // 
-            // textBox1
+            // tBUsuario
             // 
-            this.textBox1.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(299, 91);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 26);
-            this.textBox1.TabIndex = 12;
+            this.tBUsuario.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tBUsuario.Location = new System.Drawing.Point(219, 88);
+            this.tBUsuario.Name = "tBUsuario";
+            this.tBUsuario.Size = new System.Drawing.Size(153, 26);
+            this.tBUsuario.TabIndex = 12;
             // 
-            // label2
+            // lblContrasenia
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(120, 161);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(50, 18);
-            this.label2.TabIndex = 11;
-            this.label2.Text = "label2";
+            this.lblContrasenia.AutoSize = true;
+            this.lblContrasenia.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblContrasenia.Location = new System.Drawing.Point(120, 145);
+            this.lblContrasenia.Name = "lblContrasenia";
+            this.lblContrasenia.Size = new System.Drawing.Size(93, 18);
+            this.lblContrasenia.TabIndex = 11;
+            this.lblContrasenia.Text = "Contraseña:";
             // 
-            // label1
+            // lnlUsuario
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(107, 100);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(66, 18);
-            this.label1.TabIndex = 10;
-            this.label1.Text = "Usuario:";
+            this.lnlUsuario.AutoSize = true;
+            this.lnlUsuario.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lnlUsuario.Location = new System.Drawing.Point(120, 91);
+            this.lnlUsuario.Name = "lnlUsuario";
+            this.lnlUsuario.Size = new System.Drawing.Size(66, 18);
+            this.lnlUsuario.TabIndex = 10;
+            this.lnlUsuario.Text = "Usuario:";
             // 
             // button3
             // 
             this.button3.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(618, 337);
+            this.button3.Location = new System.Drawing.Point(427, 223);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(75, 23);
             this.button3.TabIndex = 9;
@@ -86,7 +88,7 @@
             // button2
             // 
             this.button2.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(361, 252);
+            this.button2.Location = new System.Drawing.Point(326, 223);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
             this.button2.TabIndex = 8;
@@ -96,7 +98,7 @@
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(191, 246);
+            this.button1.Location = new System.Drawing.Point(210, 223);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 7;
@@ -107,11 +109,11 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.ClientSize = new System.Drawing.Size(544, 450);
+            this.Controls.Add(this.tBContrsenia);
+            this.Controls.Add(this.tBUsuario);
+            this.Controls.Add(this.lblContrasenia);
+            this.Controls.Add(this.lnlUsuario);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
@@ -124,10 +126,10 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox tBContrsenia;
+        private System.Windows.Forms.TextBox tBUsuario;
+        private System.Windows.Forms.Label lblContrasenia;
+        private System.Windows.Forms.Label lnlUsuario;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button1;
