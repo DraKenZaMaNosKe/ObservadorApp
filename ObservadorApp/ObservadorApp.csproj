@@ -58,11 +58,11 @@
     <Compile Include="Especie_Admi.Designer.cs">
       <DependentUpon>Especie_Admi.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form1.cs">
+    <Compile Include="Inicio_sesion.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Inicio_sesion.Designer.cs">
+      <DependentUpon>Inicio_sesion.cs</DependentUpon>
     </Compile>
     <Compile Include="Menu_Admi.cs">
       <SubType>Form</SubType>
@@ -102,8 +102,8 @@
     <Compile Include="Zona_Admi.Designer.cs">
       <DependentUpon>Zona_Admi.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="Inicio_sesion.resx">
+      <DependentUpon>Inicio_sesion.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
