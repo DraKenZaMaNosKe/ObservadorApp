@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace ObservadorApp
 {
-    public partial class Login : Form
+    public partial class Observaciones : Form
     {
-        public Login()
+        public Observaciones()
         {
             InitializeComponent();
         }

@@ -46,14 +46,62 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Asociacion_Admi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Asociacion_Admi.Designer.cs">
+      <DependentUpon>Asociacion_Admi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Especie_Admi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Especie_Admi.Designer.cs">
+      <DependentUpon>Especie_Admi.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Menu_Admi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu_Admi.Designer.cs">
+      <DependentUpon>Menu_Admi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Observaciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Observaciones.Designer.cs">
+      <DependentUpon>Observaciones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Observacion_admi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Observacion_admi.Designer.cs">
+      <DependentUpon>Observacion_admi.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Registro_Observador_Admi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro_Observador_Admi.Designer.cs">
+      <DependentUpon>Registro_Observador_Admi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Splash.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Splash.Designer.cs">
+      <DependentUpon>Splash.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Zona_Admi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Zona_Admi.Designer.cs">
+      <DependentUpon>Zona_Admi.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>

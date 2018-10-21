@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace ObservadorApp
 {
-    public partial class Login : Form
+    public partial class Zona_Admi : Form
     {
-        public Login()
+        public Zona_Admi()
         {
             InitializeComponent();
         }
