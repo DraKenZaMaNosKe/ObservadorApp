@@ -56,10 +56,10 @@
             // 
             // btnSalir
             // 
-            this.btnSalir.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSalir.Location = new System.Drawing.Point(341, 355);
+            this.btnSalir.Font = new System.Drawing.Font("Montserrat", 12F);
+            this.btnSalir.Location = new System.Drawing.Point(357, 345);
             this.btnSalir.Name = "btnSalir";
-            this.btnSalir.Size = new System.Drawing.Size(75, 23);
+            this.btnSalir.Size = new System.Drawing.Size(75, 33);
             this.btnSalir.TabIndex = 9;
             this.btnSalir.Text = "Salir";
             this.btnSalir.UseVisualStyleBackColor = true;
@@ -75,6 +75,7 @@
             this.btnIngresar.TabIndex = 7;
             this.btnIngresar.Text = "Ingresar";
             this.btnIngresar.UseVisualStyleBackColor = false;
+            this.btnIngresar.Click += new System.EventHandler(this.btnIngresar_Click);
             // 
             // gBUsuario
             // 
@@ -105,6 +106,7 @@
             this.tBContrasenia.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tBContrasenia.Location = new System.Drawing.Point(6, 26);
             this.tBContrasenia.Name = "tBContrasenia";
+            this.tBContrasenia.PasswordChar = '°';
             this.tBContrasenia.Size = new System.Drawing.Size(237, 26);
             this.tBContrasenia.TabIndex = 12;
             // 
@@ -112,6 +114,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Montserrat ExtraLight", 24.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.label1.Location = new System.Drawing.Point(94, 19);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(263, 55);
@@ -147,6 +150,7 @@
             this.Controls.Add(this.btnSalir);
             this.Controls.Add(this.btnIngresar);
             this.Name = "Inicio_sesion";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Inicio de sesión";
             this.gBUsuario.ResumeLayout(false);
             this.gBUsuario.PerformLayout();

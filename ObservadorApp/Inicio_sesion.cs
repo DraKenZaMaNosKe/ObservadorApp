@@ -51,7 +51,7 @@ namespace ObservadorApp{
             }else{
                 try{
                     SqlDataReader ResConsul;
-                    string Consulta = "Select * from usuario where usuario=" + tBUsuario.Text + "and contrasenia" + tBContrasenia.Text;
+                    string Consulta = "Select u.*, o.estatus from usuario u join observador o on u.idObservador = o.idObservador where u.usuario=" + tBUsuario.Text + " and u.contrasenia=" + tBContrasenia.Text + " and o.estatus=Activo";
                     ResConsul = BD.Buscar(Consulta);
                     if (ResConsul.Read()){
                         idUsuario = ResConsul.GetInt32(0).ToString();
@@ -72,12 +72,34 @@ namespace ObservadorApp{
                     Conexion.conn.Close();
                 }catch (Exception ex){
                     MessageBox.Show(ex.Message);
+                    Conexion.conn.Close();
                 }
             }
-            
         }
 
-
-        
+        private void btnIngresar_Click(object sender, EventArgs e){
+            String idUsuario, usuario, contrasenia, privilegios, idObservador;
+            SqlDataReader ResConsul;
+            string Consulta = "Select u.*, o.estatus from usuario u join observador o on u.idObservador = o.idObservador where u.usuario='" + tBUsuario.Text + "' and u.contrasenia='" + tBContrasenia.Text + "' and o.estatus='Activo'";
+            ResConsul = BD.Buscar(Consulta);
+            if (ResConsul.Read()){
+                idUsuario = ResConsul.GetInt32(0).ToString();
+                usuario = ResConsul.GetString(1).ToString();
+                contrasenia = ResConsul.GetString(2).ToString();
+                privilegios = ResConsul.GetString(3).ToString();
+                idObservador = ResConsul.GetInt32(4).ToString();
+                if (privilegios == "administrador"){
+                    abrirMenuPrincipal();
+                    ResConsul.Close();
+                    Conexion.conn.Close();
+                }else if (privilegios == "observador"){
+                    abrirObservaciones();
+                    ResConsul.Close();
+                    Conexion.conn.Close();
+                }
+            }else{
+                MessageBox.Show("Usuario/Contraseña inválido(s), intente nuevamente", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
     }
 }
