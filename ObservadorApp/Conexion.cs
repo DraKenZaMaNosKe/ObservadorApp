@@ -22,6 +22,7 @@ namespace ObservadorApp{
             conn.Close();
             return datSet;
         }
+        //
         
 
         public SqlDataReader Buscar(string CodConsulta){
