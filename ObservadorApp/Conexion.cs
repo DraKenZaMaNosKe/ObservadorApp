@@ -23,6 +23,8 @@ namespace ObservadorApp{
             return datSet;
         }
 
+        //Tu mamá es hombre
+
         public SqlDataReader Buscar(string CodConsulta){
             SqlCommand comando = new SqlCommand(CodConsulta, conn);
             conn.Open();
