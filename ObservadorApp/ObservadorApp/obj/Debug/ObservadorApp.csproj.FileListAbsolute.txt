@@ -1,0 +1,13 @@
+C:\Users\miMiau\source\repos\ObservadorApp\ObservadorApp\bin\Debug\ObservadorApp.exe.config
+C:\Users\miMiau\source\repos\ObservadorApp\ObservadorApp\bin\Debug\ObservadorApp.exe
+C:\Users\miMiau\source\repos\ObservadorApp\ObservadorApp\bin\Debug\ObservadorApp.pdb
+C:\Users\miMiau\source\repos\ObservadorApp\ObservadorApp\obj\Debug\ObservadorApp.csprojAssemblyReference.cache
+C:\Users\miMiau\source\repos\ObservadorApp\ObservadorApp\obj\Debug\ObservadorApp.Inicio_sesion.resources
+C:\Users\miMiau\source\repos\ObservadorApp\ObservadorApp\obj\Debug\ObservadorApp.Menu_Admi.resources
+C:\Users\miMiau\source\repos\ObservadorApp\ObservadorApp\obj\Debug\ObservadorApp.Observaciones.resources
+C:\Users\miMiau\source\repos\ObservadorApp\ObservadorApp\obj\Debug\ObservadorApp.Properties.Resources.resources
+C:\Users\miMiau\source\repos\ObservadorApp\ObservadorApp\obj\Debug\ObservadorApp.Splash.resources
+C:\Users\miMiau\source\repos\ObservadorApp\ObservadorApp\obj\Debug\ObservadorApp.csproj.GenerateResource.cache
+C:\Users\miMiau\source\repos\ObservadorApp\ObservadorApp\obj\Debug\ObservadorApp.csproj.CoreCompileInputs.cache
+C:\Users\miMiau\source\repos\ObservadorApp\ObservadorApp\obj\Debug\ObservadorApp.exe
+C:\Users\miMiau\source\repos\ObservadorApp\ObservadorApp\obj\Debug\ObservadorApp.pdb
