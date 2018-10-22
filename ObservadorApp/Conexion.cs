@@ -22,9 +22,7 @@ namespace ObservadorApp{
             conn.Close();
             return datSet;
         }
-        //
         
-
         public SqlDataReader Buscar(string CodConsulta){
             SqlCommand comando = new SqlCommand(CodConsulta, conn);
             conn.Open();
